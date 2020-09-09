@@ -9,6 +9,7 @@ staff
 * Extracted graph (`./datasets/semeval14/restaurant_train.raw.graph`)
 <img src='assets/visualized_tree.png' alt='visualized_tree.png' />
 tokens: But, the, staff, was, so, horrible, to, us, .
+
 ```
 array([[1., 0., 0., 1., 0., 0., 0., 0., 0.],
        [0., 1., 1., 0., 0., 0., 0., 0., 0.],
