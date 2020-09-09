@@ -1,3 +1,34 @@
+# ASGCN (Comments by Jihye)
+* Raw data (`./datasets/semeval14/restaurant_train.raw`)
+```
+But the $T$ was so horrible to us .
+staff
+-1
+```
+
+* Extracted graph (`./datasets/semeval14/restaurant_train.raw.graph`)
+<img src='assets/visualized_tree.png' alt='visualized_tree.png' />
+tokens: But, the, staff, was, so, horrible, to, us, .
+```
+array([[1., 0., 0., 1., 0., 0., 0., 0., 0.],
+       [0., 1., 1., 0., 0., 0., 0., 0., 0.],
+       [0., 1., 1., 1., 0., 0., 0., 0., 0.],
+       [1., 0., 1., 1., 0., 1., 0., 0., 1.],
+       [0., 0., 0., 0., 1., 1., 0., 0., 0.],
+       [0., 0., 0., 1., 1., 1., 1., 0., 0.],
+       [0., 0., 0., 0., 0., 1., 1., 1., 0.],
+       [0., 0., 0., 0., 0., 0., 1., 1., 0.],
+       [0., 0., 0., 1., 0., 0., 0., 0., 1.]], dtype=float32)    
+```
+
+
+
+
+
+
+*****
+*****
+
 # ASGCN
 
 **ASGCN** - **A**spect-**S**pecific **G**raph **C**onvolutional **N**etwork
